@@ -1,0 +1,137 @@
+html {
+	font-size: 16px;
+
+}
+
+
+.social-bar {
+	position: fixed;
+	right: 0;
+	top: 25%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+.icon {
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+
+.icon-facebook {
+	background: #2E406E;
+}
+
+.icon-twitter {
+	background: #339DC5;
+}
+
+.icon-youtube {
+	background: #E83028;
+}
+
+.icon-instagram {
+	background: #3F60A5;
+}
+
+.icon:first-child {
+	border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+	border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+
+.navbar-laravel {
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.04);
+    box-shadow: 0 2px 4px rgba(0,0,0,.04);
+}
+.invalid-feedback{
+	display: block;
+}
+
+body{
+	background-color: #0f2f57 center center fixed;
+	background-size: cover;
+}
+
+.msj-bienvenida{
+	text-align: center;
+	color: seagreen;
+	font-family: Verdana, sans-serif;
+}
+
+.ocultar{
+	display: none;
+}
+
+td.col-problema {
+	font-weight: bold;
+	width: 30%;
+}
+
+th.col-estado{
+	background-color: #d7dade;
+}
+
+.info-ticket{
+	border: 2px solid #1b6bc0;
+}
+
+.info-activo{
+	border: 2px solid #000;
+}
+
+.table-activo{
+	border: 2px solid #1f4085;
+	border-radius: 2px;
+}
+
+h1 {
+	color: #071527;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+div.scrollable {
+    width: 100%;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+.imprime{
+	display: none;
+}
+
+@media print{
+	.no_imprime{
+		display: none;
+	}
+	.imprime{
+		display: inherit;
+	}
+}
+
+.chosen-container {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 15px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
